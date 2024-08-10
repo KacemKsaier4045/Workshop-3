@@ -1,0 +1,255 @@
+*{
+    font-family: Century;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    width: 65px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titleText{
+    font-size: 30px;
+    color: #201E43;
+}
+#outCircle{
+    color: #201E43;
+    font-weight: bold;
+    text-decoration: none;
+}
+#circle{
+    color: #508C9B ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.headerContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #f2fdff;
+    width: 97%;
+    z-index: 5;
+    border-radius: 50px;
+}
+.navBar{
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: #f2fdff;
+}
+.navLink a{
+    color: #201E43;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.navLink a:hover{
+    transition-duration: 0.3s;
+    color: #508C9B;
+}
+.navLink a:not(hover){
+    color: #201E43;
+    transition-duration: 1.3s;
+}
+#personalPicture{
+    border-radius: 25% 25px 25% 25px;
+    opacity: 85%;
+    border: #508C9B 10px dashed;
+    z-index: 4;
+}
+.contentContainer1{
+    padding: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 2px;
+}
+.welcome{
+    font-size: 20px;
+    color: #201E43;
+    font-weight: bold;
+    margin: 15px;
+}
+.myName{
+    font-size: 50px;
+    color: #508C9B;
+    font-weight: bold;
+    margin: 15px;
+}
+.introText{
+    font-size: 20px;
+    margin: 15px;
+    color: #201E43;
+}
+.screenLink a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #201E43;
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.contentContainer2{
+    padding: 0px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.screenControl{
+    padding: 30px;
+    background-color: #f0fcff;
+    border-radius: 25px;
+}
+.screen{
+    background-color: #f0fcff;
+    border-radius: 25px;
+    padding: 50px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.scTitle{
+    font-size: 25px;
+    color: #201E43;
+}
+.scText{
+    font-size: 15px;
+    color: #337b8f;
+}
+.contentContainer3{
+    padding: 100px;
+}
+.title3{
+    font-size: 60px;
+    color: #337b8f;
+    font-weight: bold;
+    text-align: center;
+}
+.text3{
+    font-size: 25px;
+    background-color: #f0fcff;
+    border-radius: 15px;
+    padding: 15px;
+    color: #201E43;
+}   
+.contactLogo{
+    width: 50px;
+}
+.contentContainer4{
+    display: flex;
+    flex-direction: column;
+}
+.formcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+.formulaire{
+    padding: 20px;
+    background-color:#f2fdff ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contacts{
+    padding: 30px;
+    background-color:#f2fdff ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 25px;
+    height: 250px;
+}
+.titleForm{
+    font-size: 25px;
+    font-weight: bold;
+    color:#201E43;
+}
+.formLab{
+    font-size: 20px;
+}
+.inputZone{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    font-size: 20px;
+}
+#proj{
+    height:  100px;
+}
+.fb,.number,.linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-between;
+    gap: 15px;
+}
+.backlogo,.frontlogo{
+    width: 50px;
+}
+.studies{
+    display: flex;
+    flex-direction: column;
+}
+.contactText{
+    font-weight: bold;
+}
+textarea{
+    width: 235px;
+    height: 350px;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+}
+button{
+    background-color: #f2fdff;
+    font-size: 30px;
+    margin: 40px;
+    border: solid 3px #201E43;
+    border-radius: 3px;
+}
+.title5{
+    font-size: 25px;
+    color: #337b8f;
+    font-weight: bold;
+}
+.contentskills{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.frontEnd,.backEnd{
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2fdff;
+    border-radius: 30px;
+}
+.frontentity,.backentity{
+    margin: 20px;
+}
